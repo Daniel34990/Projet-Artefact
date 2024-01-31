@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Commande Robot Fusée</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheet.css') }}">
+</head>
+<body>
+    <h1> Commande du robot fusée </h1>
+
+    <div class="container">
+        <div class="first">
+            <button class="top" onclick="executerFonction('/haut')">Haut</button>
+        </div>
+        <div class="second">
+            <button class="left" onclick="executerFonction('/gauche')">Gauche</button>
+            <button class="right" onclick="executerFonction('/droite')">Droite</button>
+        </div>
+        <div class="third">
+            <button class="bottom" onclick="executerFonction('/bas')">Bas</button>
+        </div>
+    </div> 
+    <script>
+        function executerFonction(route) {
+            fetch(route)
+                .then(response => response.text())
+                .then(data => console.log(data))
+                .catch(error => console.error('Erreur:', error));
+        }
+    </script>
+</body>
+</html>

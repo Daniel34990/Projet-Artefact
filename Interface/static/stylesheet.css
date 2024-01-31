@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.header{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: pink;
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    background-color: lightblue;
+}
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.top {
+    margin-bottom: 25px;
+    height: 1.5cm;
+    width: 1.5cm;
+    content: '\2191'; /* Code Unicode pour la flèche vers le haut */
+}
+
+.bottom {
+    margin-top: 25px;
+    height: 1.5cm;
+    width: 1.5cm;
+    content: '\2193'; /* Code Unicode pour la flèche vers le bas */
+}
+
+.left {
+    margin-right: 25px;
+    height: 1.5cm;
+    width: 1.5cm;
+    content: '\2190'; /* Code Unicode pour la flèche vers la gauche */
+}
+
+.right {
+    margin-left: 25px;
+    height: 1.5cm;
+    width: 1.5cm;
+    content: '\2192'; /* Code Unicode pour la flèche vers la droite */
+}
