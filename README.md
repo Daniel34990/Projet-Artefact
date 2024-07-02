@@ -1,4 +1,4 @@
-Le projet a pour but de réaliser une voiture autonome à parti de pièces mécaniques élémentaire:  
+Le projet a pour but de réaliser une voiture autonome à partir de pièces élémentaires:  
 -Une RaspberryPi4  
 -Une caméra Webcam portative    
 -Deux moteurs et deux roues pour la propulsion  
